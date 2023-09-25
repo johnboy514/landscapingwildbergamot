@@ -6,14 +6,17 @@ function NavbarComponent() {
   return (
 <Navbar expand="lg" className="shadow-lg mb-5">
     <Container fluid>
-    <img src="../images/wildbergamotlogo.png" className="img-fluid" alt="logo" style={{width: '50px', height: 'auto', marginLeft: 'auto'}}></img>
-      <Navbar.Brand style={{  marginRight: '5px' }}>Wild Bergamot</Navbar.Brand>
-      <br></br>
-          <Nav style={{  marginRight: 'auto', marginLeft: '5px' }}>
-            <Nav.Link href="#home">About</Nav.Link>
-            <Nav.Link href="#features">Services</Nav.Link>
-            <Nav.Link href="#pricing">Request a Quote</Nav.Link>
+    <img src="../images/wildbergamotlogo.png" className="img-fluid" alt="logo" style={{width: '50px', height: 'auto' }}></img>
+      <Navbar.Brand style={{  marginRight: 'auto', marginLeft: 'auto' }}>Wild Bergamot</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/services">Services</Nav.Link>
+            <Nav.Link href="/request-a-quote">Request a Quote</Nav.Link>
           </Nav>
+          </Navbar.Collapse>
     </Container>
 </Navbar>
   );

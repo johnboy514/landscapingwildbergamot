@@ -26,10 +26,10 @@ function Footer() {
               </div>        
             </div>
           </section>
-          <div className="text-center p-4" style={{backgroundColor: "rgba(0, 0, 0, 0.025)"}}>
+          {/* <div className="text-center p-4" style={{backgroundColor: "rgba(0, 0, 0, 0.025)"}}>
             © 2021 Copyright:
             <a className="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-          </div>
+          </div> */}
         </footer>
     )
 }
