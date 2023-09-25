@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router,  Route,  Routes,  Navigate} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -16,7 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
     </Router>
     </div>
   );

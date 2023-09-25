@@ -4,7 +4,8 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Home() {
     return (
-        <div>
+      <center>
+        <div style={{maxWidth: "1000px"}}>
         <Carousel>
       <Carousel.Item>
       <img
@@ -43,6 +44,7 @@ function Home() {
       </Carousel.Item>
     </Carousel>
         </div>
+        </center>
     );
 }
 

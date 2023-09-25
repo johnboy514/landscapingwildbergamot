@@ -3,13 +3,12 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavbarComponent() {
   return (
-    <Container>
-      <Navbar expand="lg" className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand>Wild Bergamot</Navbar.Brand>
-        </Container>
-      </Navbar>
+<Navbar expand="lg" className="shadow-lg mb-5">
+    <Container fluid>
+    <img src="../images/wildbergamotlogo.png" className="img-fluid" alt="logo" style={{width: '50px', height: 'auto', marginLeft: 'auto'}}></img>
+      <Navbar.Brand style={{  marginRight: 'auto' }}>Wild Bergamot</Navbar.Brand>
     </Container>
+</Navbar>
   );
 }
 
