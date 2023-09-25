@@ -10,9 +10,18 @@ function RequestAQuote() {
         <Form.Label>Name</Form.Label>
         <Form.Control type="text" placeholder="Enter full name" />
       </Form.Group>
+
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
+        <Form.Text className="text-muted">
+          We'll never share your email with anyone else.
+        </Form.Text>
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="formBasicLocation">
+        <Form.Label>Job site address</Form.Label>
+        <Form.Control type="location" placeholder="Enter where job will be" />
         <Form.Text className="text-muted">
           We'll never share your email with anyone else.
         </Form.Text>
