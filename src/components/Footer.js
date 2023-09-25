@@ -16,11 +16,11 @@ function Footer() {
                 <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                   <h6 className="text-uppercase fw-bold mb-4">Info</h6>
                   <p><i className="fas fa-home me-3 text-secondary"></i> Marshall, NC 28753, US</p>
-                  {/* <p>
+                  <p>
                     <i className="fas fa-envelope me-3 text-secondary"></i>
-                    info@example.com
-                  </p> */}
-                  <p><i className="fas fa-clock me-3 text-secondary"></i>Mon-Fri | 8am-4pm</p>
+                    wild.bergmot.gardening@gmail.com
+                  </p>
+                  {/* <p><i className="fas fa-clock me-3 text-secondary"></i>Mon-Fri | 8am-4pm</p> */}
                   {/* <p><i className="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p> */}
                 </div>      
               </div>        
