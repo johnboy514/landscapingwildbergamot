@@ -52,7 +52,7 @@ function Home() {
   };
 
   const pageStyle = {
-    backgroundImage: 'url("https://i.pinimg.com/originals/db/f7/c7/dbf7c77d5f6b397743c0b431f4bfcb6a.jpg")',
+    backgroundImage: 'url("https://turfboundlandscape.com/wp-content/themes/land2/images/sliders/02.jpg")',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
@@ -65,6 +65,7 @@ function Home() {
   };
 
   return (
+    <div>
     <div style={pageStyle}>
       <section className="">
         <div className="px-4 py-5 px-md-5 text-center text-lg-start">
@@ -72,10 +73,10 @@ function Home() {
             <div className="row gx-lg-5 align-items-center">
               <div className="col-lg-6 mb-5 mb-lg-0">
                 <h1 className="my-5 display-3 fw-bold ls-tight">
-                  The best offer <br />
-                  <span style={{ color: '#bc6c25' }}>for your business</span>
+                  Maintain <br />
+                  <span style={{ color: '#fefae0' }}>Your Estate</span>
                 </h1>
-                <p style={{ color: "hsl(217, 10%, 50.8%)" }}>
+                <p style={{ color: "#fefae0" }}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Eveniet, itaque accusantium odio, soluta, corrupti aliquam
                   quibusdam tempora at cupiditate quis eum maiores libero
@@ -84,8 +85,14 @@ function Home() {
               </div>
 
               <div className="col-lg-6 mb-5 mb-lg-0">
-                <div className="card" style={{ maxWidth: '400px', maxHeight: '600px', backgroundColor: '#dda15e', border: '2px solid #283618' }}>
+                <div className="card" style={{ 
+                      maxWidth: '400px', 
+                      maxHeight: '600px', 
+                      backgroundColor: 'rgba(221, 161, 94, 0.9)', // Adjust the alpha value (0.7 in this example)
+                      border: '2px solid #283618' 
+                    }}>                     
                   <div className="card-body py-5 px-md-">
+                  <h4 className="text-center" style={{color: "#fefae0", fontFamily: "Dancing Script, cursive"}}>Request your free quote!</h4>
                     <Form onSubmit={handleSubmit} className="px-3">
                       <Form.Group className="mb-3 pt-3" controlId="formName">
                         <Form.Control type="text" ref={name} placeholder="Name" />
@@ -122,6 +129,53 @@ function Home() {
         </div>
       </section>
     </div>
+    <section class="vh-100">
+    <div class="container py-5 h-100">
+      <div class="row d-flex align-items-center justify-content-center h-100">
+        <div class="col-md-8 col-lg-7 col-xl-6">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
+            class="img-fluid" alt="Phone"/>
+        </div>
+        <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+          <form>
+            <div class="form-outline mb-4">
+              <input type="email" id="form1Example13" class="form-control form-control-lg" />
+              <label class="form-label" for="form1Example13">Email address</label>
+            </div>
+  
+            <div class="form-outline mb-4">
+              <input type="password" id="form1Example23" class="form-control form-control-lg" />
+              <label class="form-label" for="form1Example23">Password</label>
+            </div>
+  
+            <div class="d-flex justify-content-around align-items-center mb-4">
+                      <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+                <label class="form-check-label" for="form1Example3"> Remember me </label>
+              </div>
+              <a href="#!">Forgot password?</a>
+            </div>
+  
+         
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
+  
+            <div class="divider d-flex align-items-center my-4">
+              <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
+            </div>
+  
+            <a class="btn btn-primary btn-lg btn-block"  href='/' style={{backgroundColor: "#55acee"}}
+              role="button">
+              <i class="fab fa-facebook-f me-2"></i>Continue with Facebook
+            </a>
+            <a class="btn btn-primary btn-lg btn-block" href='/' style={{backgroundColor: "#55acee"}}
+              role="button">
+              <i class="fab fa-twitter me-2"></i>Continue with Twitter</a>  
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
   );
 }
 

@@ -20,12 +20,8 @@ function NavbarComponent() {
   const whiteTextStyle = {
     color: '#fefae0',
     marginTop: '25px', // Add margin to push the text down
-  };
-
-  const logoStyle = {
-    width: '50px',
-    height: 'auto',
-    marginTop: '25px', // Add margin to push the image down
+    fontFamily: 'Dancing Script, cursive',
+    fontSize: '20px',
   };
 
   const lineAboveNavLinksStyle = {
@@ -41,17 +37,16 @@ function NavbarComponent() {
       <div style={lineStyle}></div>
       <Navbar expand="lg">
         <Container fluid>
-          <img src="../images/wildbergamotlogo.png" className="img-fluid" alt="logo" style={logoStyle}></img>
-          <Navbar.Brand style={{ ...whiteTextStyle }}>Wild Bergamot</Navbar.Brand>
+          <Navbar.Brand style={{ ...whiteTextStyle, fontSize: '40px' }}>Wild Bergamot</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
               <Nav.Link href="/" style={whiteTextStyle}>Home</Nav.Link>
-              <Nav.Link href="/about" style={whiteTextStyle}>About</Nav.Link>
               <Nav.Link href="/services" style={whiteTextStyle}>Services</Nav.Link>
-              <Nav.Link href="/request-a-quote" style={whiteTextStyle}>Request a Quote</Nav.Link>
-            </Nav>
+              <Nav.Link href="/about" style={whiteTextStyle}>About</Nav.Link>           
+            </Nav> 
           </Navbar.Collapse>
+          <div className="ml-auto" style={whiteTextStyle}>Call us!: 555-555-5555</div>
         </Container>
       </Navbar>
       <div style={lineAboveNavLinksStyle}></div>

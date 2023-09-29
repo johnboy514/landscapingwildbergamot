@@ -7,8 +7,6 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Services from "./components/Services";
-import RequestAQuote from './components/RequestAQuote';
-
 
 function App() {
   return (
@@ -19,7 +17,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/request-a-quote" element={<RequestAQuote />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
