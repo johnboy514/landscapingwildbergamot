@@ -128,26 +128,22 @@ function Home() {
         </div>
       </section>
     </div>
-    <section>
-    <div class="py-3">
-      <div class="row">
-        <div class="col-md-8 col-lg-2 col-xl-4">
-          <h1 style={{ color: "#000000", fontSize: '50px', fontFamily: "Dancing Script, cursive"}}>Check out our before and after pictures!</h1>
-          <p style={{ color: "#000000", fontSize: '20px' }}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eveniet, itaque accusantium odio, soluta, corrupti aliquam
-                  quibusdam tempora at cupiditate quis eum maiores libero
-                  veritatis? Dicta facilis sint aliquid ipsum atque?
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eveniet, itaque accusantium odio, soluta, corrupti aliquam
-                  quibusdam tempora at cupiditate quis eum maiores libero
-                  veritatis? Dicta facilis sint aliquid ipsum atque.
-                </p>
+ <section className='mt-5'>
+  <div className="py-3">
+    <div className="row">
+      <div className="col-md-8 col-lg-2 col-xl-4 offset-xl-1" style={{ backgroundColor: 'rgba(221, 161, 94, 0.9)', borderRadius: '25%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div>
+          <h1 style={{ color: "#000000", fontSize: '50px', fontFamily: "Dancing Script, cursive", textAlign: 'center' }}>Check out our before and after pictures!</h1>
+          <p style={{ color: "#000000", fontSize: '20px', textAlign: 'left' }}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, itaque accusantium odio, soluta, corrupti aliquam quibusdam tempora at cupiditate quis eum maiores libero veritatis? Dicta facilis sint aliquid ipsum atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, itaque accusantium odio, soluta, corrupti aliquam quibusdam tempora at cupiditate quis eum maiores libero veritatis? Dicta facilis sint aliquid ipsum atque.
+          </p>
         </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 offset-xl-1">
+      </div>
+      <div className="col-md-10 col-lg-8 col-xl-5 offset-xl-1">
         <Carousel>
       <Carousel.Item>
       <img
+          style={{ borderRadius: '5% 0% 0% 25%'}}
           className="d-block w-100"
           src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/featured-image-cheap-landscaping.jpeg"
           alt="First slide"
@@ -159,6 +155,7 @@ function Home() {
       </Carousel.Item>
       <Carousel.Item>
       <img
+          style={{ borderRadius: '5% 0% 0% 25%'}}
           className="d-block w-100"
           src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/featured-image-front-yard-landscaping.jpeg"
           alt="Second slide"
@@ -170,6 +167,7 @@ function Home() {
       </Carousel.Item>
       <Carousel.Item>
       <img
+          style={{ borderRadius: '5% 0% 0% 25%'}}
           className="d-block w-100"
           src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/04/featured-image-landscaping.jpeg-1.jpg"
           alt="Third slide"

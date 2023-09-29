@@ -37,3 +37,8 @@
     transform: rotate(360deg);
   }
 }
+
+.carousel-image {
+  max-height: 300px; /* Set the maximum height as per your design */
+  width: auto; /* This allows the image to maintain its aspect ratio */
+}
