@@ -41,12 +41,12 @@ function NavbarComponent() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
-              <Nav.Link href="/" style={whiteTextStyle}>Home</Nav.Link>
-              <Nav.Link href="/services" style={whiteTextStyle}>Services</Nav.Link>
-              <Nav.Link href="/about" style={whiteTextStyle}>About</Nav.Link>           
+              <Nav.Link href="/" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>Home</Nav.Link>
+              <Nav.Link href="#services" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>Services</Nav.Link>
+              <Nav.Link href="#about" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>About</Nav.Link>           
             </Nav> 
           </Navbar.Collapse>
-          <div className="ml-auto" style={whiteTextStyle}>Call us!: 555-555-5555</div>
+          <div className="ml-auto" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>Call us!: 555-555-5555</div>
         </Container>
       </Navbar>
       <div style={lineAboveNavLinksStyle}></div>
