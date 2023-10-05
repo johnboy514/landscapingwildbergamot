@@ -51,7 +51,7 @@ function Home() {
   };
 
   const pageStyle = {
-    backgroundImage: 'url("https://turfboundlandscape.com/wp-content/themes/land2/images/sliders/02.jpg")',
+    backgroundImage: 'url("./images/backgroundpic.jpg")',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
@@ -137,55 +137,57 @@ function Home() {
         </div>
       </div>
       <div className="col-md-10 col-lg-8 col-xl-5 offset-xl-1">
-        <Carousel>
-      <Carousel.Item>
+  <Carousel>
+    <Carousel.Item>
       <img
-          style={{ borderRadius: '5% 5% 5% 5%'}}
-          className="d-block w-100"
-          src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/featured-image-cheap-landscaping.jpeg"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
+        style={{ borderRadius: '5%', width: '900px', height: '410px'}}
+        className="d-block w-100"
+        src="./images/slide1.jpg"
+        alt="First slide"
+      />
+      <Carousel.Caption>
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
       <img
-          style={{ borderRadius: '5% 5% 5% 5%'}}
-          className="d-block w-100"
-          src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/featured-image-front-yard-landscaping.jpeg"
-          alt="Second slide"
-        />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
+        style={{ borderRadius: '5%', width: '900px', height: '410px'}}
+        className="d-block w-100"
+        src="./images/slide2.jpg"
+        alt="Second slide"
+      />
+      <Carousel.Caption>
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
       <img
-          style={{ borderRadius: '5% 5% 5% 5%'}}
-          className="d-block w-100"
-          src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/04/featured-image-landscaping.jpeg-1.jpg"
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-        </div>
+        style={{ borderRadius: '5%', width: '900px', height: '410px'}}
+        className="d-block w-100"
+        src="./images/slide3.jpg"
+        alt="Third slide"
+      />
+      <Carousel.Caption>
+        <h3>Third slide label</h3>
+        <p>
+          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        </p>
+      </Carousel.Caption>
+    </Carousel.Item>
+  </Carousel>
+</div>
+
       </div>
     </div>
   </section>
   <h1 id='services' className="mt-5" style={{fontFamily: "Dancing Script, cursive", fontSize: '60px'}}>Our Services</h1>
   <Container>
-    <Row className="d-flex flex-wrap justify-content-center">
-    <Card className="text-black mt-4 mx-3" style={{ width: '24rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
-  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundImage: 'url("https://turfboundlandscape.com/wp-content/themes/land2/images/sliders/02.jpg")'}}></Card.Header>
+  <Row className="d-flex flex-wrap justify-content-center">
+    <div className="col-lg-3 col-md-6 col-sm-12">
+      <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
+  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url("./images/designpic.jpg")'}}></Card.Header>
   <Card.Body className="d-flex flex-column">
     <Card.Title style={{color: '#606c38', fontSize: '30px', fontFamily: "Dancing Script, cursive"}} className='mb-4'>Design</Card.Title>
     <Card.Text>
@@ -201,8 +203,10 @@ function Home() {
     </Card.Text>
   </Card.Body>
 </Card>
-<Card className="text-black mt-4 mx-3" style={{ width: '24rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
-  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundImage: 'url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/featured-image-front-yard-landscaping.jpeg")'}}></Card.Header>
+</div>
+<div className="col-lg-3 col-md-6 col-sm-12">
+<Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
+  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url("./images/installation.jpg")'}}></Card.Header>
   <Card.Body className="d-flex flex-column">
     <Card.Title style={{color: '#606c38', fontSize: '30px', fontFamily: "Dancing Script, cursive"}} className='mb-4'>Installation</Card.Title>
     <Card.Text>
@@ -218,8 +222,10 @@ function Home() {
     </Card.Text>
   </Card.Body>
 </Card>
-<Card className="text-black mt-4 mx-3" style={{ width: '24rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
-  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundImage: 'url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/04/featured-image-landscaping.jpeg-1.jpg")'}}></Card.Header>
+</div>
+<div className="col-lg-3 col-md-6 col-sm-12">
+<Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
+  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url("./images/stonework.jpg")'}}></Card.Header>
   <Card.Body className="d-flex flex-column">
     <Card.Title style={{color: '#606c38', fontSize: '30px', fontFamily: "Dancing Script, cursive"}} className='mb-4'>Stone Work</Card.Title>
     <Card.Text>
@@ -235,8 +241,10 @@ function Home() {
     </Card.Text>
   </Card.Body>
 </Card>
-<Card className="text-black mt-4 mx-3" style={{ width: '24rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
-  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundImage: 'url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/04/featured-image-landscaping.jpeg-1.jpg")'}}></Card.Header>
+</div>
+<div className="col-lg-3 col-md-6 col-sm-12">
+<Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
+  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url("./images/maintenance.jpg")'}}></Card.Header>
   <Card.Body className="d-flex flex-column">
     <Card.Title style={{color: '#606c38', fontSize: '30px', fontFamily: "Dancing Script, cursive"}} className='mb-4'>Maintenance</Card.Title>
     <Card.Text>
@@ -252,6 +260,7 @@ function Home() {
     </Card.Text>
   </Card.Body>
 </Card>
+</div>
 
     </Row>
   </Container>
