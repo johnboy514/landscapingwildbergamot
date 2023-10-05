@@ -187,7 +187,7 @@ function Home() {
     <Card className="text-black mt-4 mx-3" style={{ width: '24rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
   <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundImage: 'url("https://turfboundlandscape.com/wp-content/themes/land2/images/sliders/02.jpg")'}}></Card.Header>
   <Card.Body className="d-flex flex-column">
-    <Card.Title style={{color: '#606c38', fontSize: '30px', fontFamily: "Dancing Script, cursive"}} className='mb-4'>Landscape Managment</Card.Title>
+    <Card.Title style={{color: '#606c38', fontSize: '30px', fontFamily: "Dancing Script, cursive"}} className='mb-4'>Design</Card.Title>
     <Card.Text>
       <ul className='mb-5'>
         <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 1</li>
@@ -204,7 +204,7 @@ function Home() {
 <Card className="text-black mt-4 mx-3" style={{ width: '24rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
   <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundImage: 'url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/featured-image-front-yard-landscaping.jpeg")'}}></Card.Header>
   <Card.Body className="d-flex flex-column">
-    <Card.Title style={{color: '#606c38', fontSize: '30px', fontFamily: "Dancing Script, cursive"}} className='mb-4'>Landscape Managment</Card.Title>
+    <Card.Title style={{color: '#606c38', fontSize: '30px', fontFamily: "Dancing Script, cursive"}} className='mb-4'>Installation</Card.Title>
     <Card.Text>
       <ul className='mb-5'>
         <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 1</li>
@@ -221,7 +221,7 @@ function Home() {
 <Card className="text-black mt-4 mx-3" style={{ width: '24rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
   <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundImage: 'url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/04/featured-image-landscaping.jpeg-1.jpg")'}}></Card.Header>
   <Card.Body className="d-flex flex-column">
-    <Card.Title style={{color: '#606c38', fontSize: '30px', fontFamily: "Dancing Script, cursive"}} className='mb-4'>Landscape Managment</Card.Title>
+    <Card.Title style={{color: '#606c38', fontSize: '30px', fontFamily: "Dancing Script, cursive"}} className='mb-4'>Stone Work</Card.Title>
     <Card.Text>
       <ul className='mb-5'>
         <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 1</li>
@@ -235,6 +235,24 @@ function Home() {
     </Card.Text>
   </Card.Body>
 </Card>
+<Card className="text-black mt-4 mx-3" style={{ width: '24rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
+  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundImage: 'url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/04/featured-image-landscaping.jpeg-1.jpg")'}}></Card.Header>
+  <Card.Body className="d-flex flex-column">
+    <Card.Title style={{color: '#606c38', fontSize: '30px', fontFamily: "Dancing Script, cursive"}} className='mb-4'>Maintenance</Card.Title>
+    <Card.Text>
+      <ul className='mb-5'>
+        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 1</li>
+        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 2</li>
+        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 3</li>
+        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 4</li>
+        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 5</li>
+        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 6</li>
+        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 7</li>
+      </ul>
+    </Card.Text>
+  </Card.Body>
+</Card>
+
     </Row>
   </Container>
   <section class="text-center mt-5">
