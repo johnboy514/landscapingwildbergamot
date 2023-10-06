@@ -214,28 +214,6 @@ function Home() {
         <li style={{ listStyle: "disc", color: '#606c38' }}>Native plants</li>
         <li style={{ listStyle: "disc", color: '#606c38' }}>Perennials</li>
         <li style={{ listStyle: "disc", color: '#606c38' }}>Stone Work</li>
-        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 1</li>
-        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 2</li>
-        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 3</li>
-        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 4</li>
-        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 5</li>
-        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 6</li>
-        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 7</li>
-      </ul>
-    </Card.Text>
-  </Card.Body>
-</Card>
-</div>
-<div className="col-lg-3 col-md-6 col-sm-12">
-<Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
-  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url("./images/stonework.jpg")'}}></Card.Header>
-  <Card.Body className="d-flex flex-column">
-    <Card.Title style={{color: '#606c38', fontSize: '30px', fontFamily: "Dancing Script, cursive"}} className='mb-4'>Stone Work</Card.Title>
-    <Card.Text>
-      <ul className='mb-5'>
-        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 1</li>
-        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 2</li>
-        <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 3</li>
         <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 4</li>
         <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 5</li>
         <li style={{ listStyle: "disc", color: '#606c38' }}>Feature 6</li>
