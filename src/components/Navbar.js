@@ -4,8 +4,9 @@ import { Navbar, Nav } from 'react-bootstrap';
 function NavbarComponent() {
   const navbarStyle = {
     backgroundColor: "#606c38",
-    position: 'relative',
+    position: 'fixed',
     height: '110px',
+    width: '100%',
   };
 
   const lineStyle = {
@@ -46,7 +47,6 @@ function NavbarComponent() {
               <Nav.Link href="#about" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>About</Nav.Link>           
             </Nav> 
           </Navbar.Collapse>
-          <div className="ml-auto" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>Call us!: 555-555-5555</div>
         </Container>
       </Navbar>
       <div style={lineAboveNavLinksStyle}></div>
