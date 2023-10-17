@@ -46,3 +46,26 @@
 .backgroundcolor {
   background-color: #fefae0;
 }
+
+@media (max-width: 990px) {
+  .requestQuoteCard {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .picsCarousel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .aboutSection{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    padding-right: 20px;
+    max-width: 100px;
+  }
+}

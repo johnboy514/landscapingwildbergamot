@@ -7,6 +7,7 @@ function NavbarComponent() {
     position: 'fixed',
     height: '110px',
     width: '100%',
+    zIndex: '1',
   };
 
   const lineStyle = {
@@ -14,7 +15,7 @@ function NavbarComponent() {
     top: 0,
     left: 0,
     right: 0,
-    height: '25px',
+    height: '20px',
     backgroundColor: "#283618",
   };
 
@@ -41,7 +42,7 @@ function NavbarComponent() {
           <Navbar.Brand style={{ ...whiteTextStyle, fontSize: '40px' }}>Wild Bergamot</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav>
+            <Nav className='navDropdown' style={{ backgroundColor: "#606c38" }}>
               <Nav.Link href="/" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>Home</Nav.Link>
               <Nav.Link href="#services" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>Services</Nav.Link>
               <Nav.Link href="#about" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>About</Nav.Link>           
