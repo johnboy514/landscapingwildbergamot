@@ -104,7 +104,7 @@ function Home() {
                       </Form.Group>
 
                       <Form.Group className="mb-3" controlId="formEmail">
-                        <Form.Control type="email" ref={email} placeholder={"Email"} />
+                        <Form.Control type="email" ref={email} placeholder={"Email"} pattern="^\S+@\S+\.(com|net|edu|org|gov)$" title="Please enter a valid email address ending with .com" />
                         {visible2 && <div className="text-danger">Please enter your Email</div>}
                       </Form.Group>
 
