@@ -2,7 +2,10 @@ import React from "react";
 import {Button, Form, Carousel, Card, Container, Row}from 'react-bootstrap';
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
-import logo from "../images/wildbergamotlogo.png";
+import backgroundImage from "../images/backgroundpic.jpg";
+import designpic from "../images/designpic.jpg";
+import installation from "../images/installation.jpg";
+import maintenance from "../images/maintenance.jpg";
 
 function Home() {
 
@@ -52,7 +55,7 @@ function Home() {
   };
 
   const pageStyle = {
-    backgroundImage: 'url("./images/backgroundpic.jpg")',
+    backgroundImage: 'url(' + backgroundImage + ')',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
@@ -72,7 +75,7 @@ function Home() {
           <div className="container">
             <div className="row gx-lg-5 align-items-center">
               <div className="col-lg-6 mb-5 mb-lg-0 mt-5">
-              <img src={logo} alt="Logo" className="img-fluid float-start" style={{ marginTop: '20px' }} />
+              <img src={require('../images/wildbergamotlogo.png')} alt="Logo" className="img-fluid float-start" style={{ marginTop: '20px' }} />
                 <h1 className="my-5 display-3 fw-bold ls-tight">
                   Maintain <br />
                   <span style={{ color: '#fefae0' }}>Your Estate</span>
@@ -144,7 +147,7 @@ function Home() {
       <img
         style={{ borderRadius: '5%', width: '900px', height: '410px'}}
         className="d-block w-100"
-        src="./images/slide1.jpg"
+        src={require('../images/slide1.jpg')}
         alt="First slide"
       />
       <Carousel.Caption>
@@ -156,7 +159,7 @@ function Home() {
       <img
         style={{ borderRadius: '5%', width: '900px', height: '410px'}}
         className="d-block w-100"
-        src="./images/slide2.jpg"
+        src={require('../images/slide2.jpg')}
         alt="Second slide"
       />
       <Carousel.Caption>
@@ -168,7 +171,7 @@ function Home() {
       <img
         style={{ borderRadius: '5%', width: '900px', height: '410px'}}
         className="d-block w-100"
-        src="./images/slide3.jpg"
+        src={require('../images/slide3.jpg')}
         alt="Third slide"
       />
       <Carousel.Caption>
@@ -189,7 +192,7 @@ function Home() {
   <Row className="d-flex flex-wrap justify-content-center">
     <div className="col-xl-3 col-lg-6 col-md-6 col-sm-8">
       <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
-  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url("./images/designpic.jpg")'}}></Card.Header>
+  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + designpic + ')',}}></Card.Header>
   <Card.Body className="d-flex flex-column">
     <Card.Title style={{color: '#606c38', fontSize: '30px', fontFamily: "Dancing Script, cursive"}} className='mb-4'>Design</Card.Title>
     <Card.Text>
@@ -208,7 +211,7 @@ function Home() {
 </div>
 <div className="col-xl-3 col-lg-6 col-md-6 col-sm-8">
 <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
-  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url("./images/installation.jpg")'}}></Card.Header>
+  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + installation + ')',}}></Card.Header>
   <Card.Body className="d-flex flex-column">
     <Card.Title style={{color: '#606c38', fontSize: '30px', fontFamily: "Dancing Script, cursive"}} className='mb-4'>Installation</Card.Title>
     <Card.Text>
@@ -227,7 +230,7 @@ function Home() {
 </div>
 <div className="col-xl-3 col-lg-6 col-md-6 col-sm-8">
 <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
-  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url("./images/maintenance.jpg")'}}></Card.Header>
+  <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + maintenance + ')',}}></Card.Header>
   <Card.Body className="d-flex flex-column">
     <Card.Title style={{color: '#606c38', fontSize: '30px', fontFamily: "Dancing Script, cursive"}} className='mb-4'>Maintenance</Card.Title>
     <Card.Text>
