@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landscapingwildbergamot/static/css/main.74fbf6bb.css",
-    "main.js": "/landscapingwildbergamot/static/js/main.415090f3.js",
+    "main.js": "/landscapingwildbergamot/static/js/main.6965d0a7.js",
     "static/js/787.ff7e76aa.chunk.js": "/landscapingwildbergamot/static/js/787.ff7e76aa.chunk.js",
     "static/media/fa-solid-900.ttf": "/landscapingwildbergamot/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/backgroundpic.jpg": "/landscapingwildbergamot/static/media/backgroundpic.bbf60a79d50122699959.jpg",
@@ -21,11 +21,11 @@
     "static/media/fa-v4compatibility.woff2": "/landscapingwildbergamot/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/landscapingwildbergamot/index.html",
     "main.74fbf6bb.css.map": "/landscapingwildbergamot/static/css/main.74fbf6bb.css.map",
-    "main.415090f3.js.map": "/landscapingwildbergamot/static/js/main.415090f3.js.map",
+    "main.6965d0a7.js.map": "/landscapingwildbergamot/static/js/main.6965d0a7.js.map",
     "787.ff7e76aa.chunk.js.map": "/landscapingwildbergamot/static/js/787.ff7e76aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74fbf6bb.css",
-    "static/js/main.415090f3.js"
+    "static/js/main.6965d0a7.js"
   ]
 }
