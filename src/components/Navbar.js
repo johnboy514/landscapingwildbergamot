@@ -43,7 +43,7 @@ function NavbarComponent() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className='navDropdown' style={{ backgroundColor: "#606c38" }}>
-              <Nav.Link href="/" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>Home</Nav.Link>
+              <Nav.Link href="/landscapingwildbergamot" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>Home</Nav.Link>
               <Nav.Link href="#services" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>Services</Nav.Link>
               <Nav.Link href="#about" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>About</Nav.Link>           
             </Nav> 
