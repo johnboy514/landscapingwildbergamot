@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/landscapingwildbergamot/static/css/main.74fbf6bb.css",
-    "main.js": "/landscapingwildbergamot/static/js/main.0ad6b16c.js",
-    "static/js/787.ff7e76aa.chunk.js": "/landscapingwildbergamot/static/js/787.ff7e76aa.chunk.js",
-    "static/media/fa-solid-900.ttf": "/landscapingwildbergamot/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
-    "static/media/fa-brands-400.ttf": "/landscapingwildbergamot/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
-    "static/media/fa-solid-900.woff2": "/landscapingwildbergamot/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
-    "static/media/fa-brands-400.woff2": "/landscapingwildbergamot/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
-    "static/media/fa-regular-400.ttf": "/landscapingwildbergamot/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
-    "static/media/fa-regular-400.woff2": "/landscapingwildbergamot/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
-    "static/media/fa-v4compatibility.ttf": "/landscapingwildbergamot/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
-    "static/media/fa-v4compatibility.woff2": "/landscapingwildbergamot/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
-    "index.html": "/landscapingwildbergamot/index.html",
-    "main.74fbf6bb.css.map": "/landscapingwildbergamot/static/css/main.74fbf6bb.css.map",
-    "main.0ad6b16c.js.map": "/landscapingwildbergamot/static/js/main.0ad6b16c.js.map",
-    "787.ff7e76aa.chunk.js.map": "/landscapingwildbergamot/static/js/787.ff7e76aa.chunk.js.map"
+    "main.css": "./static/css/main.82a55758.css",
+    "main.js": "./static/js/main.1cd12d36.js",
+    "static/js/787.ff7e76aa.chunk.js": "./static/js/787.ff7e76aa.chunk.js",
+    "static/media/fa-solid-900.ttf": "./static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "./static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "./static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "./static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "./static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "./static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "./static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "./static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "./index.html",
+    "main.82a55758.css.map": "./static/css/main.82a55758.css.map",
+    "main.1cd12d36.js.map": "./static/js/main.1cd12d36.js.map",
+    "787.ff7e76aa.chunk.js.map": "./static/js/787.ff7e76aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74fbf6bb.css",
-    "static/js/main.0ad6b16c.js"
+    "static/css/main.82a55758.css",
+    "static/js/main.1cd12d36.js"
   ]
 }
