@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mooli&family=Nanum+Gothic:wght@700&display=swap');
 .App {
   text-align: center;
 }
@@ -34,5 +35,37 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.carousel-image {
+  max-height: 300px; /* Set the maximum height as per your design */
+  width: auto; /* This allows the image to maintain its aspect ratio */
+}
+
+.backgroundcolor {
+  background-color: #fefae0;
+}
+
+@media (max-width: 990px) {
+  .requestQuoteCard {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .picsCarousel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .aboutSection{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    padding-right: 20px;
+    max-width: 100px;
   }
 }
