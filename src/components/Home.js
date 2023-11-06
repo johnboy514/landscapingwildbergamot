@@ -2,6 +2,7 @@ import React from "react";
 import {Button, Form, Carousel, Card, Container, Row}from 'react-bootstrap';
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
+import logo from "../images/wildbergamotlogo.png";
 
 function Home() {
 
@@ -71,7 +72,7 @@ function Home() {
           <div className="container">
             <div className="row gx-lg-5 align-items-center">
               <div className="col-lg-6 mb-5 mb-lg-0 mt-5">
-              <img src="images\wildbergamotlogo.png" alt="Logo" className="img-fluid float-start" style={{ marginTop: '20px' }} />
+              <img src={logo} alt="Logo" className="img-fluid float-start" style={{ marginTop: '20px' }} />
                 <h1 className="my-5 display-3 fw-bold ls-tight">
                   Maintain <br />
                   <span style={{ color: '#fefae0' }}>Your Estate</span>
