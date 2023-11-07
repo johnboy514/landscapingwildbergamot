@@ -7,7 +7,7 @@ The goal was to give users a way to contact the company and set up appointments 
 
 ## Technologies Used
 
-- In this project we used the following to build the site
+In this project we used the following to build the site
  - React
  - Email.Js
  - BootStrap
@@ -27,7 +27,7 @@ The Url of the Github repository is here
 https://github.com/johnboy514/landscapingwildbergamot
 
 ## Usage
-- When the user opens the site there is a module for job requests
+When the user opens the site there is a module for job requests
  - Enter the required information into the open fields.
  - After you have entered your name, email, location for job, and message hit submit!
  - Submit will send it to the company to be reviewed and so they can respond.
