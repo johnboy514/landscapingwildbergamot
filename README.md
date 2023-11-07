@@ -7,7 +7,7 @@ The goal was to give users a way to contact the company and set up appointments 
 
 ## Technologies Used
 
--In this project we used the following to build the site
+- In this project we used the following to build the site
  - React
  - Email.Js
  - BootStrap
