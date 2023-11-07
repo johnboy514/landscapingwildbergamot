@@ -36,5 +36,5 @@ https://github.com/johnboy514/landscapingwildbergamot
 For help with this webpage please contact
 |Name | Email |
 |-----------|---------------------------|
-|Robert Obernier| legendary6615@gmail.com |
+|Robert Obernier| robertjobernier@gmail.com |
 |John Ifert| john.ifert.miller@gmail.com |
