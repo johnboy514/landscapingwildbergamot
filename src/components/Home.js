@@ -67,6 +67,23 @@ function Home() {
     color: '#fefae0',
   };
 
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+  window.addEventListener("scroll", reveal);
+
   return (
     <div className="backgroundcolor">
     <div style={pageStyle}>
@@ -74,7 +91,7 @@ function Home() {
         <div className="px-4 py-5 px-md-5 text-center text-lg-start">
           <div className="container">
             <div className="row gx-lg-5 align-items-center">
-              <div className="col-lg-6 mb-5 mb-lg-0 mt-5">
+              <div className="col-lg-6 mb-5 mb-lg-0 mt-5 slideInLeft">
               <img src={require('../images/wildbergamotlogo.png')} alt="Logo" className="img-fluid float-start" style={{ marginTop: '20px' }} />
                 <h1 className="my-5 display-3 fw-bold ls-tight">
                   Maintain <br />
@@ -88,7 +105,7 @@ function Home() {
                 </p>
               </div>
 
-              <div className="col-lg-6 mb-5 mb-lg-0">
+              <div className="col-lg-6 mb-5 mb-lg-0 slideInRight">
                 <div className="requestQuoteCard" style={{ 
                       maxWidth: '400px', 
                       maxHeight: '600px', 
@@ -120,7 +137,7 @@ function Home() {
                       <div style={{ borderBottom: '2px solid #283618' }}></div>
                       
                       <div className="d-flex justify-content-center mt-3"> {/* Center the button */}
-                        <Button style={{ backgroundColor: '#283618' }} type="submit">
+                        <Button className="button-pop-out" style={{ backgroundColor: '#283618' }} type="submit">
                           Submit
                         </Button>
                       </div>
@@ -136,12 +153,12 @@ function Home() {
  <section className='mt-5'>
   <div className="py-3">
     <div className="row">
-      <div className="col-md-8 col-lg-2 col-xl-4 offset-xl-1 picsCarousel" style={{ backgroundColor: '#fefae0', borderRadius: '10%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <div className="col-md-8 col-lg-2 col-xl-4 offset-xl-1 picsCarousel reveal" style={{ backgroundColor: '#fefae0', borderRadius: '10%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <div>
           <h1 style={{ color: "#283618", fontSize: '50px', fontFamily: "Dancing Script, cursive", textAlign: 'center' }}>Check out our before and after pictures!</h1>
         </div>
       </div>
-      <div className="col-md-10 col-lg-8 col-xl-5 offset-xl-1 picsCarousel">
+      <div className="col-md-10 col-lg-8 col-xl-5 offset-xl-1 picsCarousel reveal">
   <Carousel>
     <Carousel.Item>
       <img
@@ -188,9 +205,10 @@ function Home() {
     </div>
   </section>
   <h1 id='services' className="mt-5" style={{fontFamily: "Dancing Script, cursive", fontSize: '60px'}}>Our Services</h1>
+  <center>
   <Container>
   <Row className="d-flex flex-wrap justify-content-center">
-    <div className="col-xl-3 col-lg-6 col-md-6 col-sm-8">
+    <div className="col-xl-3 col-lg-6 col-md-6 col-sm-8 reveal">
       <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
   <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + designpic + ')',}}></Card.Header>
   <Card.Body className="d-flex flex-column">
@@ -209,7 +227,7 @@ function Home() {
   </Card.Body>
 </Card>
 </div>
-<div className="col-xl-3 col-lg-6 col-md-6 col-sm-8">
+<div className="col-xl-3 col-lg-6 col-md-6 col-sm-8 reveal">
 <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
   <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + installation + ')',}}></Card.Header>
   <Card.Body className="d-flex flex-column">
@@ -228,7 +246,7 @@ function Home() {
   </Card.Body>
 </Card>
 </div>
-<div className="col-xl-3 col-lg-6 col-md-6 col-sm-8">
+<div className="col-xl-3 col-lg-6 col-md-6 col-sm-8 reveal">
 <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: '#fefae0', borderStyle: 'none' }}>
   <Card.Header style={{ borderRadius: '10%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + maintenance + ')',}}></Card.Header>
   <Card.Body className="d-flex flex-column">
@@ -250,6 +268,7 @@ function Home() {
 
     </Row>
   </Container>
+  </center>
   <section class="text-center mt-5">
   <div class="p-5 bg-image" style={{
     backgroundColor: '#283618',
@@ -257,7 +276,7 @@ function Home() {
   }}></div>
   <div class="container">
     <div class="row">
-      <div class="col-md-8 aboutSection">
+      <div class="col-md-8 aboutSection reveal">
         <div className="card mx-4 mx-md-5 shadow-5-strong mb-5" style={{
           marginTop: "-100px",
           background: "hsla(0, 0%, 100%, 0.8)",
@@ -278,7 +297,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="d-block aboutSection" style={{ width: '440px' }}>
+      <div className="d-block aboutSection reveal" style={{ width: '440px' }}>
   <img style={{ borderRadius: '100%'  }} src="https://media.glassdoor.com/l/35/ce/66/4d/happy-landscapers.jpg" alt="landscapers" class="img-fluid" />
 </div>
     </div>
