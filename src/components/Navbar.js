@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 
 function NavbarComponent() {
   const navbarStyle = {
@@ -40,14 +40,6 @@ function NavbarComponent() {
       <Navbar expand="lg">
         <Container fluid>
           <Navbar.Brand style={{ ...whiteTextStyle, fontSize: '40px' }}>Wild Bergamot</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className='navDropdown' style={{ backgroundColor: "#606c38" }}>
-              <Nav.Link href="/landscapingwildbergamot" className="button-pop-out" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>Home</Nav.Link>
-              <Nav.Link href="#services" className="button-pop-out" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>Services</Nav.Link>
-              <Nav.Link href="#about" className="button-pop-out" style={{ ...whiteTextStyle, backgroundColor: "#606c38"}}>About</Nav.Link>           
-            </Nav> 
-          </Navbar.Collapse>
         </Container>
       </Navbar>
       <div style={lineAboveNavLinksStyle}></div>
