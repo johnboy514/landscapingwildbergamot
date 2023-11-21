@@ -1,19 +1,13 @@
 {
   "files": {
     "main.css": "/landscapingwildbergamot/static/css/main.dcef0c8f.css",
-    "main.js": "/landscapingwildbergamot/static/js/main.7e5d1003.js",
+    "main.js": "/landscapingwildbergamot/static/js/main.ab28556c.js",
     "static/js/787.ff7e76aa.chunk.js": "/landscapingwildbergamot/static/js/787.ff7e76aa.chunk.js",
     "static/media/fa-solid-900.ttf": "/landscapingwildbergamot/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/backgroundpic.jpg": "/landscapingwildbergamot/static/media/backgroundpic.bbf60a79d50122699959.jpg",
-    "static/media/slide1.jpg": "/landscapingwildbergamot/static/media/slide1.c485a2fd75f992305bab.jpg",
-    "static/media/designpic.jpg": "/landscapingwildbergamot/static/media/designpic.63e642e9f829edcdf902.jpg",
-    "static/media/slide2.jpg": "/landscapingwildbergamot/static/media/slide2.63e642e9f829edcdf902.jpg",
-    "static/media/slide3.jpg": "/landscapingwildbergamot/static/media/slide3.ef0a109877da0ca18ea5.jpg",
     "static/media/fa-brands-400.ttf": "/landscapingwildbergamot/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
     "static/media/fa-solid-900.woff2": "/landscapingwildbergamot/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
     "static/media/fa-brands-400.woff2": "/landscapingwildbergamot/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
-    "static/media/installation.jpg": "/landscapingwildbergamot/static/media/installation.e86b8f0c5f37d4da4faf.jpg",
-    "static/media/maintenance.jpg": "/landscapingwildbergamot/static/media/maintenance.833bcf1239ebcd3a3010.jpg",
     "static/media/fa-regular-400.ttf": "/landscapingwildbergamot/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
     "static/media/wildbergamotlogo.png": "/landscapingwildbergamot/static/media/wildbergamotlogo.dbd1d95f270342fa9753.png",
     "static/media/fa-regular-400.woff2": "/landscapingwildbergamot/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
@@ -21,11 +15,11 @@
     "static/media/fa-v4compatibility.woff2": "/landscapingwildbergamot/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/landscapingwildbergamot/index.html",
     "main.dcef0c8f.css.map": "/landscapingwildbergamot/static/css/main.dcef0c8f.css.map",
-    "main.7e5d1003.js.map": "/landscapingwildbergamot/static/js/main.7e5d1003.js.map",
+    "main.ab28556c.js.map": "/landscapingwildbergamot/static/js/main.ab28556c.js.map",
     "787.ff7e76aa.chunk.js.map": "/landscapingwildbergamot/static/js/787.ff7e76aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dcef0c8f.css",
-    "static/js/main.7e5d1003.js"
+    "static/js/main.ab28556c.js"
   ]
 }
