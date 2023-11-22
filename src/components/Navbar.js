@@ -22,7 +22,6 @@ function NavbarComponent() {
   const whiteTextStyle = {
     color: '#fefae0',
     marginTop: '25px', // Add margin to push the text down
-    fontFamily: 'Dancing Script, cursive',
     fontSize: '20px',
   };
 
@@ -39,7 +38,7 @@ function NavbarComponent() {
       <div style={lineStyle}></div>
       <Navbar expand="lg">
         <Container fluid>
-          <Navbar.Brand style={{ ...whiteTextStyle, fontSize: '40px' }}>Wild Bergamot</Navbar.Brand>
+          <Navbar.Brand className="font" style={{ ...whiteTextStyle, fontSize: '40px' }}>wild bergamot</Navbar.Brand>
         </Container>
       </Navbar>
       <div style={lineAboveNavLinksStyle}></div>

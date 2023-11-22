@@ -3,6 +3,7 @@ import {Button, Form, Container, Row}from 'react-bootstrap';
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import backgroundImage from "../images/backgroundpic.jpg";
+import designPic from "../images/designpic.jpg";
 
 function Home() {
 
@@ -52,7 +53,7 @@ function Home() {
   };
 
   const pageStyle = {
-    backgroundImage: 'url(' + backgroundImage + ')',
+    backgroundImage: 'url(' + designPic + ')',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
@@ -84,14 +85,14 @@ function Home() {
   return (
     <div className="backgroundcolor">
     <div style={pageStyle}>
-      <section className="">
+      <section className="font">
         <div className="px-4 py-5 px-md-5 text-center text-lg-start">
           <div className="container">
             <div className="row gx-lg-5 align-items-center">
               <div className="col-lg-8 mb-5 mb-lg-0 mt-5 slideInLeft" style={{ backgroundColor: 'rgba(221, 161, 94, 0.9)' , border: "solid" , borderColor: "#283618" }}>
               <img src={require('../images/wildbergamotlogo.png')} alt="Logo" className="img-fluid float-start" style={{ marginTop: '20px' }} />
                 <h1 className="my-5 display-3 fw-bold ls-tight">
-                  Maintain <br />
+                  Enhance <br />
                   <span style={{ color: 'rgb(96, 108, 56)' }}>Your Estate</span>
                 </h1>
                 <p style={{ color: "#fefae0" }}>
