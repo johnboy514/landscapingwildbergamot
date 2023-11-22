@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/landscapingwildbergamot/static/css/main.dcef0c8f.css",
-    "main.js": "/landscapingwildbergamot/static/js/main.ab28556c.js",
+    "main.css": "/landscapingwildbergamot/static/css/main.6a66dc35.css",
+    "main.js": "/landscapingwildbergamot/static/js/main.63a5faaf.js",
     "static/js/787.ff7e76aa.chunk.js": "/landscapingwildbergamot/static/js/787.ff7e76aa.chunk.js",
     "static/media/fa-solid-900.ttf": "/landscapingwildbergamot/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/backgroundpic.jpg": "/landscapingwildbergamot/static/media/backgroundpic.bbf60a79d50122699959.jpg",
+    "static/media/designpic.jpg": "/landscapingwildbergamot/static/media/designpic.63e642e9f829edcdf902.jpg",
     "static/media/fa-brands-400.ttf": "/landscapingwildbergamot/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
     "static/media/fa-solid-900.woff2": "/landscapingwildbergamot/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
     "static/media/fa-brands-400.woff2": "/landscapingwildbergamot/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
@@ -14,12 +15,12 @@
     "static/media/fa-v4compatibility.ttf": "/landscapingwildbergamot/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/landscapingwildbergamot/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/landscapingwildbergamot/index.html",
-    "main.dcef0c8f.css.map": "/landscapingwildbergamot/static/css/main.dcef0c8f.css.map",
-    "main.ab28556c.js.map": "/landscapingwildbergamot/static/js/main.ab28556c.js.map",
+    "main.6a66dc35.css.map": "/landscapingwildbergamot/static/css/main.6a66dc35.css.map",
+    "main.63a5faaf.js.map": "/landscapingwildbergamot/static/js/main.63a5faaf.js.map",
     "787.ff7e76aa.chunk.js.map": "/landscapingwildbergamot/static/js/787.ff7e76aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcef0c8f.css",
-    "static/js/main.ab28556c.js"
+    "static/css/main.6a66dc35.css",
+    "static/js/main.63a5faaf.js"
   ]
 }
