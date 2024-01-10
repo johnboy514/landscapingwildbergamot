@@ -2,8 +2,7 @@
 
 ## Description
 
-This project was made to be the landing page for Wild Bergamot a landscaping company located in NC. 
-The goal was to give users a way to contact the company and set up appointments to get their yards serviced.
+Created a user-friendly website tailored for a landscaping company based in Marshall, North Carolina. The primary objective was to facilitate seamless communication between potential customers and the company owner, streamlining the process for job inquiries and bookings.
 
 ## Technologies Used
 
