@@ -2,7 +2,7 @@ import React from "react";
 import {Button, Form, Container, Row}from 'react-bootstrap';
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
-import backgroundImage from "../images/backgroundpic.jpg";
+// import backgroundImage from "../images/backgroundpic.jpg";
 import designPic from "../images/designpic.jpg";
 
 function Home() {
@@ -95,8 +95,8 @@ function Home() {
                   Enhance <br />
                   <span style={{ color: 'rgb(96, 108, 56)' }}>Your Estate</span>
                 </h1>
-                <p style={{ color: "#fefae0" }}>
-                At Wild Bergamot, our approach ensures that your 
+                <p style={{ color: "#283618", fontSize: "20px" }}>
+                At Wild Bergamot, our landscaping approach ensures that your 
                 yard not only looks stunning upon completion but also flourishes 
                 over time through thoughtful design, precise installation, 
                 and meticulous maintenance.
@@ -111,7 +111,7 @@ function Home() {
                       border: '2px solid #283618' 
                     }}>                     
                   <div className="card-body py-5 px-md-">
-                  <h4 className="text-center" style={{color: "#fefae0", fontFamily: "Dancing Script, cursive"}}>Request your free quote!</h4>
+                  <h4 className="text-center" style={{color: "#fefae0", fontFamily: "Dancing Script, cursive"}}>Contact for a quote!</h4>
                     <Form onSubmit={handleSubmit} className="px-3">
                       <Form.Group className="mb-3 pt-3" controlId="formName">
                         <Form.Control type="text" ref={name} placeholder="Name" />
