@@ -20,7 +20,7 @@ In this project we used the following to build the site
 
 The landing page can be accessed following this link
 
-https://johnboy514.github.io/landscapingwildbergamot/
+https://wildbergamot.net/
 
 The Url of the Github repository is here
 
