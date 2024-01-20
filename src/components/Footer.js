@@ -9,7 +9,7 @@ function Footer() {
                     <i className="fas fa-tree me-3 text-secondary"></i>wild bergamot
                   </h6>
                   <p>
-                  Landscaping, gardening, mulching, desgining, maintaining so 
+                  Landscaping, gardening, mulching, designing, maintaining so 
                   request a quote today!
                   </p>
                 </div>
